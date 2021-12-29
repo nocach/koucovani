@@ -1,0 +1,12 @@
+title: FlowCatcher
+description: >- # this means to ignore newlines until "baseurl:"
+  FlowCatcher - alternative to spotify player. Define how you listen.
+theme: jekyll-theme-cayman
+
+google_analytics: UA-181402247-1
+github:
+  owner_name: Alexey Kaloshin
+
+rpm_url: https://github.com/nocach/flowcatcher/releases/download/1.0-installer/flowcatcher-1.0-1.x86_64.rpm
+msi_url: https://github.com/nocach/flowcatcher/releases/download/1.0-installer/FlowCatcher-1.0.msi
+dmg_url: https://github.com/nocach/flowcatcher/releases/download/1.0-installer/FlowCatcher-1.0.dmg
