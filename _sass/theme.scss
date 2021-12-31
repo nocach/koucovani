@@ -228,10 +228,15 @@ a {
         }
 
         @include small {
-          height: 715px;
+            min-height: 500px;
+            max-height: 715px;
         }
       }
       .item1{
+        min-width: 300px;
+        @include small {
+              padding-top: 2rem;
+        }
       }
       .item2 {
           @include medium {
@@ -239,7 +244,6 @@ a {
           }
           position: relative;
           max-width: 700px;
-          min-width: 300px;
           text-align: left;
       }
       .item22{
