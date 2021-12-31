@@ -71,7 +71,7 @@ a {
   }
 
   @include small {
-    font-size: 3rem;
+    font-size: 1.8rem;
   }
 }
 
@@ -85,7 +85,7 @@ a {
   }
 
   @include small {
-    font-size: 2.5rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -100,7 +100,7 @@ a {
   }
 
   @include small {
-    font-size: 2rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -197,16 +197,16 @@ a {
     }
 
   @include large {
-    padding: 4rem 6rem;
+    padding: 4rem 6rem 0rem 6rem;
     padding-bottom: 0;
   }
 
   @include medium {
-    padding: 3rem 4rem;
+    padding: 3rem 4rem 0rem 4rem;
   }
 
   @include small {
-    padding: 3rem 4rem;
+    padding: 3rem 4rem 0rem 4rem;
   }
 
 
@@ -246,39 +246,6 @@ a {
       }
   }
 
-  .description{
-    color: #ffffff;
-    max-width: 35rem;
-
-    @include large {
-        max-width: 40rem;
-        font-size: 1.2rem;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-      }
-
-      @include medium {
-
-        font-size: 1.0rem;
-      }
-
-      @include small {
-        font-size: 1rem;
-      }
-  }
-
-}
-
-.regular {
-    font-weight:400;
-}
-
-.bold {
-    font-weight:700;
-}
-
-.extrabold {
-    font-weight:800;
 }
 
 .main-content {
@@ -308,13 +275,13 @@ a {
   @include small {
     font-size: 1rem;
         .size5{
-                    font-size: 2.5rem;
+                    font-size: 1.8rem;
         }
         .size4{
-                font-size: 2.1rem;
+                font-size: 1.6rem;
         }
         .size3{
-            font-size: 1.7rem;
+            font-size: 1.2rem;
         }
   }
 
@@ -583,6 +550,7 @@ a {
         flex-direction: column;
 
         h1{
+            text-align: center;
             padding-bottom: 100px;
         }
         .btn {
