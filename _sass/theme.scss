@@ -206,7 +206,7 @@ a {
   }
 
   @include small {
-    padding: 3rem 4rem 0rem 4rem;
+    padding: 2rem 2rem 0rem 2rem;
   }
 
 
@@ -238,7 +238,7 @@ a {
                 padding-top: 50px;
           }
           position: relative;
-          width: 700px;
+          max-width: 700px;
           text-align: left;
       }
       .item22{
@@ -478,7 +478,16 @@ a {
   }
 
   .stripe{
-      padding: 50px 50px 0px 50px;
+        @include large {
+              padding: 50px 50px 0px 50px;
+        }
+        @include medium {
+              padding: 50px 50px 0px 50px;
+        }
+        @include small {
+              padding: 2rem 2rem 0px 2rem;
+        }
+
 
       .flex-box{
           @include large {
@@ -535,7 +544,13 @@ a {
               max-width: 600px;
           }
           .item1{
-              padding-right: 60px;
+                @include large{
+                    padding-right: 60px;
+                }
+                @include medium{
+                    padding-right: 60px;
+                }
+
               max-width: 600px;
               .right{
                   color: #898989;
