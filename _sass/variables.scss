@@ -1,28 +1,21 @@
 //colors
-$primary0: #071b2b;
-$primary1: #092b4c;
-$primary2: #0b3f77;
-$primary5: #046b99;
-$primary6: #98c0e5;
-$primary8: #dfeff7;
+$blackKa: #030608;
+$whiteKa: #ffffff;
+$greyKa: #f7f7f9;
 
-$secondary6: #e5c647;
-$secondary4: #db9e23;
-$secondary5: #d3a420;
-$secondary0: #231307;
 
 // Breakpoints
 $large-breakpoint: 64em !default;
-$medium-breakpoint: 42em !default;
+$medium-breakpoint: 50em !default;
 
 // Headers
 $header-heading-color: #fff !default;
-$header-bg-color: $primary5 !default;
+$header-bg-color: $blackKa !default;
 $header-bg-color-secondary: #155799 !default;
 
 // Text
-$section-headings-color: $primary1 !default;
-$body-text-color: $primary2 !default;
+$section-headings-color: $blackKa !default;
+$body-text-color: $blackKa !default;
 $body-link-color: #1e6bb8 !default;
 $blockquote-text-color: #819198 !default;
 
